@@ -71,9 +71,18 @@ const Index = () => {
               </h1>
               <div className="h-1 gradient-accent rounded-full"></div>
             </div>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Команда инноваторов, объединенных страстью к технологиям и желанием создавать будущее
-            </p>
+            
+            <div className="max-w-3xl mx-auto space-y-4">
+              <div className="inline-block px-6 py-3 rounded-full bg-primary/10 border border-primary/20">
+                <p className="text-lg md:text-xl font-semibold text-foreground">
+                  Название команды: <span className="text-gradient">Tech Innovators</span>
+                </p>
+              </div>
+              
+              <p className="text-xl md:text-2xl text-muted-foreground">
+                Команда инноваторов, объединенных страстью к технологиям и желанием создавать будущее
+              </p>
+            </div>
           </div>
         </div>
       </section>
