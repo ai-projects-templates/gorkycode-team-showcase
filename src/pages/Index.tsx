@@ -73,9 +73,9 @@ const Index = () => {
             </div>
             
             <div className="max-w-3xl mx-auto space-y-4">
-              <div className="inline-block px-6 py-3 rounded-full bg-primary/10 border border-primary/20">
-                <p className="text-lg md:text-xl font-semibold text-foreground">
-                  Название команды: <span className="text-gradient">Tech Innovators</span>
+              <div className="inline-block px-6 py-3 rounded-full bg-card border border-primary/30 shadow-card">
+                <p className="text-lg md:text-xl font-semibold text-muted-foreground">
+                  Название команды: <span className="text-primary font-bold">Tech Innovators</span>
                 </p>
               </div>
               
